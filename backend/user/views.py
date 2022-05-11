@@ -1,4 +1,5 @@
 from rest_framework import generics, permissions
+from django.contrib.auth import login
 from rest_framework.response import Response
 from knox.models import AuthToken
 from knox.views import LoginView as KnoxLoginView
